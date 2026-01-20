@@ -40,12 +40,12 @@ import (
 
 	"github.com/dustin/go-humanize"
 	md5simd "github.com/minio/md5-simd"
-	"github.com/minio/minio-go/v7/pkg/credentials"
-	"github.com/minio/minio-go/v7/pkg/kvcache"
-	"github.com/minio/minio-go/v7/pkg/s3utils"
-	"github.com/minio/minio-go/v7/pkg/set"
-	"github.com/minio/minio-go/v7/pkg/signer"
-	"github.com/minio/minio-go/v7/pkg/singleflight"
+	"github.com/hanzoai/storage-go/pkg/credentials"
+	"github.com/hanzoai/storage-go/pkg/kvcache"
+	"github.com/hanzoai/storage-go/pkg/s3utils"
+	"github.com/hanzoai/storage-go/pkg/set"
+	"github.com/hanzoai/storage-go/pkg/signer"
+	"github.com/hanzoai/storage-go/pkg/singleflight"
 	"golang.org/x/net/publicsuffix"
 )
 

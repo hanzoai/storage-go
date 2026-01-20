@@ -26,9 +26,9 @@ import (
 	"io"
 	"log"
 
-	"github.com/minio/minio-go/v7"
-	"github.com/minio/minio-go/v7/pkg/credentials"
-	"github.com/minio/minio-go/v7/pkg/encrypt"
+	"github.com/hanzoai/storage-go"
+	"github.com/hanzoai/storage-go/pkg/credentials"
+	"github.com/hanzoai/storage-go/pkg/encrypt"
 )
 
 func main() {

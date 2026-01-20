@@ -24,8 +24,8 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/minio/minio-go/v7/pkg/s3utils"
-	"github.com/minio/minio-go/v7/pkg/tags"
+	"github.com/hanzoai/storage-go/pkg/s3utils"
+	"github.com/hanzoai/storage-go/pkg/tags"
 )
 
 // RestoreType represents the restore request type

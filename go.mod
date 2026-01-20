@@ -1,4 +1,4 @@
-module github.com/minio/minio-go/v7
+module github.com/hanzoai/storage-go
 
 go 1.24.0
 

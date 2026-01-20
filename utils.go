@@ -41,8 +41,8 @@ import (
 	"time"
 
 	md5simd "github.com/minio/md5-simd"
-	"github.com/minio/minio-go/v7/pkg/s3utils"
-	"github.com/minio/minio-go/v7/pkg/tags"
+	"github.com/hanzoai/storage-go/pkg/s3utils"
+	"github.com/hanzoai/storage-go/pkg/tags"
 )
 
 func trimEtag(etag string) string {

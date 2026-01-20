@@ -25,8 +25,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/minio/minio-go/v7"
-	"github.com/minio/minio-go/v7/pkg/credentials"
+	"github.com/hanzoai/storage-go"
+	"github.com/hanzoai/storage-go/pkg/credentials"
 )
 
 func main() {

@@ -23,7 +23,7 @@ import (
 	"encoding/xml"
 	"net/http"
 
-	"github.com/minio/minio-go/v7/pkg/s3utils"
+	"github.com/hanzoai/storage-go/pkg/s3utils"
 )
 
 // Bucket operations

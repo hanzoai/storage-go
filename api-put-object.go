@@ -29,9 +29,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/minio/minio-go/v7/pkg/encrypt"
-	"github.com/minio/minio-go/v7/pkg/s3utils"
-	"github.com/minio/minio-go/v7/pkg/tags"
+	"github.com/hanzoai/storage-go/pkg/encrypt"
+	"github.com/hanzoai/storage-go/pkg/s3utils"
+	"github.com/hanzoai/storage-go/pkg/tags"
 	"golang.org/x/net/http/httpguts"
 )
 

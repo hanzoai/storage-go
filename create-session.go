@@ -27,9 +27,9 @@ import (
 	"path"
 	"time"
 
-	"github.com/minio/minio-go/v7/pkg/credentials"
-	"github.com/minio/minio-go/v7/pkg/s3utils"
-	"github.com/minio/minio-go/v7/pkg/signer"
+	"github.com/hanzoai/storage-go/pkg/credentials"
+	"github.com/hanzoai/storage-go/pkg/s3utils"
+	"github.com/hanzoai/storage-go/pkg/signer"
 )
 
 // SessionMode - session mode type there are only two types
